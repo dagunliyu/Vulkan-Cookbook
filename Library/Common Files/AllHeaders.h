@@ -22,7 +22,7 @@
 //
 // Vulkan Cookbook
 // ISBN: 9781786468154
-// © Packt Publishing Limited
+// ï¿½ Packt Publishing Limited
 //
 // Author:   Pawel Lapinski
 // LinkedIn: https://www.linkedin.com/in/pawel-lapinski-84522329
@@ -166,7 +166,8 @@
 #include "08 Graphics and Compute Pipelines/18 Creating a compute pipeline.h"
 #include "08 Graphics and Compute Pipelines/19 Binding a pipeline object.h"
 #include "08 Graphics and Compute Pipelines/20 Creating a pipeline layout with a combined image sampler, a buffer and push constant ranges.h"
-#include "08 Graphics and Compute Pipelines/21 Creating a graphics pipeline with vertex and fragment shaders, depth test enabled, and with dynamic viewport and scissor tests.h"
+// #include "08 Graphics and Compute Pipelines/21 Creating a graphics pipeline with vertex and fragment shaders, depth test enabled, and with dynamic viewport and scissor tests.h"
+#include "08 Graphics and Compute Pipelines/21.h"
 #include "08 Graphics and Compute Pipelines/22 Creating multiple graphics pipelines on multiple threads.h"
 #include "08 Graphics and Compute Pipelines/23 Destroying a pipeline.h"
 #include "08 Graphics and Compute Pipelines/24 Destroying a pipeline cache.h"

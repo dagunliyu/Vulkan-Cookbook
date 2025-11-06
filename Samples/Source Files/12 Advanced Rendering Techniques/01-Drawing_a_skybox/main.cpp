@@ -22,7 +22,7 @@
 //
 // Vulkan Cookbook
 // ISBN: 9781786468154
-// © Packt Publishing Limited
+// ?Packt Publishing Limited
 //
 // Author:   Pawel Lapinski
 // LinkedIn: https://www.linkedin.com/in/pawel-lapinski-84522329
@@ -67,7 +67,8 @@ class Sample : public VulkanCookbookSample {
     }
 
     // Vertex data
-    if( !Load3DModelFromObjFile( "Data/Models/cube.obj", false, false, false, false, Skybox ) ) {
+    //C:/Users/ibe/Projects/Proj_Basic/Proj_CG/Vulkan/Vulkan - Cookbook/Samples/Data
+    if( !Load3DModelFromObjFile( "C:/Users/ibe/Projects/Proj_Basic/Proj_CG/Vulkan/Vulkan-Cookbook/Samples/Data/Models/cube.obj", false, false, false, false, Skybox ) ) {
       return false;
     }
 
@@ -124,12 +125,12 @@ class Sample : public VulkanCookbookSample {
     }
 
     std::vector<std::string> cubemap_images = {
-      "Data/Textures/Skansen/posx.jpg",
-      "Data/Textures/Skansen/negx.jpg",
-      "Data/Textures/Skansen/posy.jpg",
-      "Data/Textures/Skansen/negy.jpg",
-      "Data/Textures/Skansen/posz.jpg",
-      "Data/Textures/Skansen/negz.jpg"
+      "C:/Users/ibe/Projects/Proj_Basic/Proj_CG/Vulkan/Vulkan-Cookbook/Samples/Data/Textures/Skansen/posx.jpg",
+      "C:/Users/ibe/Projects/Proj_Basic/Proj_CG/Vulkan/Vulkan-Cookbook/Samples/Data/Textures/Skansen/negx.jpg",
+      "C:/Users/ibe/Projects/Proj_Basic/Proj_CG/Vulkan/Vulkan-Cookbook/Samples/Data/Textures/Skansen/posy.jpg",
+      "C:/Users/ibe/Projects/Proj_Basic/Proj_CG/Vulkan/Vulkan-Cookbook/Samples/Data/Textures/Skansen/negy.jpg",
+      "C:/Users/ibe/Projects/Proj_Basic/Proj_CG/Vulkan/Vulkan-Cookbook/Samples/Data/Textures/Skansen/posz.jpg",
+      "C:/Users/ibe/Projects/Proj_Basic/Proj_CG/Vulkan/Vulkan-Cookbook/Samples/Data/Textures/Skansen/negz.jpg"
     };
 
     for( size_t i = 0; i < cubemap_images.size(); ++i ) {

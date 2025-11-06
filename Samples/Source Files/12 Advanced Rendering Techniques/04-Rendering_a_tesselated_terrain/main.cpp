@@ -22,7 +22,7 @@
 //
 // Vulkan Cookbook
 // ISBN: 9781786468154
-// © Packt Publishing Limited
+// ?Packt Publishing Limited
 //
 // Author:   Pawel Lapinski
 // LinkedIn: https://www.linkedin.com/in/pawel-lapinski-84522329
@@ -75,7 +75,7 @@ class Sample : public VulkanCookbookSample {
     }
 
     // Vertex data
-    if( !Load3DModelFromObjFile( "Data/Models/plane.obj", false, true, false, false, Model ) ) {
+    if( !Load3DModelFromObjFile( "C:/Users/ibe/Projects/Proj_Basic/Proj_CG/Vulkan/Vulkan-Cookbook/Samples/Data/Models/plane.obj", false, true, false, false, Model ) ) {
       return false;
     }
 
@@ -112,7 +112,7 @@ class Sample : public VulkanCookbookSample {
     int width = 1;
     int height = 1;
     std::vector<unsigned char> image_data;
-    if( !LoadTextureDataFromFile( "Data/Textures/heightmap.png", 4, image_data, &width, &height ) ) {
+    if( !LoadTextureDataFromFile( "C:/Users/ibe/Projects/Proj_Basic/Proj_CG/Vulkan/Vulkan-Cookbook/Samples/Data/Textures/heightmap.png", 4, image_data, &width, &height ) ) {
       return false;
     }
 
@@ -309,7 +309,7 @@ class Sample : public VulkanCookbookSample {
     }
 
     std::vector<unsigned char> vertex_shader_spirv;
-    if( !GetBinaryFileContents( "Data/Shaders/12 Advanced Rendering Techniques/04 Rendering a tesselated terrain/shader.vert.spv", vertex_shader_spirv ) ) {
+    if( !GetBinaryFileContents( "C:/Users/ibe/Projects/Proj_Basic/Proj_CG/Vulkan/Vulkan-Cookbook/Samples/Data/Shaders/12 Advanced Rendering Techniques/04 Rendering a tesselated terrain/shader.vert.spv", vertex_shader_spirv ) ) {
       return false;
     }
 
@@ -320,7 +320,7 @@ class Sample : public VulkanCookbookSample {
     }
 
     std::vector<unsigned char> tessellation_control_shader_spirv;
-    if( !GetBinaryFileContents( "Data/Shaders/12 Advanced Rendering Techniques/04 Rendering a tesselated terrain/shader.tesc.spv", tessellation_control_shader_spirv ) ) {
+    if( !GetBinaryFileContents( "C:/Users/ibe/Projects/Proj_Basic/Proj_CG/Vulkan/Vulkan-Cookbook/Samples/Data/Shaders/12 Advanced Rendering Techniques/04 Rendering a tesselated terrain/shader.tesc.spv", tessellation_control_shader_spirv ) ) {
       return false;
     }
 
@@ -331,7 +331,7 @@ class Sample : public VulkanCookbookSample {
     }
 
     std::vector<unsigned char> tessellation_evaluation_shader_spirv;
-    if( !GetBinaryFileContents( "Data/Shaders/12 Advanced Rendering Techniques/04 Rendering a tesselated terrain/shader.tese.spv", tessellation_evaluation_shader_spirv ) ) {
+    if( !GetBinaryFileContents( "C:/Users/ibe/Projects/Proj_Basic/Proj_CG/Vulkan/Vulkan-Cookbook/Samples/Data/Shaders/12 Advanced Rendering Techniques/04 Rendering a tesselated terrain/shader.tese.spv", tessellation_evaluation_shader_spirv ) ) {
       return false;
     }
 
@@ -342,7 +342,7 @@ class Sample : public VulkanCookbookSample {
     }
 
     std::vector<unsigned char> geometry_shader_spirv;
-    if( !GetBinaryFileContents( "Data/Shaders/12 Advanced Rendering Techniques/04 Rendering a tesselated terrain/shader.geom.spv", geometry_shader_spirv ) ) {
+    if( !GetBinaryFileContents( "C:/Users/ibe/Projects/Proj_Basic/Proj_CG/Vulkan/Vulkan-Cookbook/Samples/Data/Shaders/12 Advanced Rendering Techniques/04 Rendering a tesselated terrain/shader.geom.spv", geometry_shader_spirv ) ) {
       return false;
     }
 
@@ -353,7 +353,7 @@ class Sample : public VulkanCookbookSample {
     }
 
     std::vector<unsigned char> fragment_shader_spirv;
-    if( !GetBinaryFileContents( "Data/Shaders/12 Advanced Rendering Techniques/04 Rendering a tesselated terrain/shader.frag.spv", fragment_shader_spirv ) ) {
+    if( !GetBinaryFileContents( "C:/Users/ibe/Projects/Proj_Basic/Proj_CG/Vulkan/Vulkan-Cookbook/Samples/Data/Shaders/12 Advanced Rendering Techniques/04 Rendering a tesselated terrain/shader.frag.spv", fragment_shader_spirv ) ) {
       return false;
     }
     VkDestroyer(VkShaderModule) fragment_shader_module;

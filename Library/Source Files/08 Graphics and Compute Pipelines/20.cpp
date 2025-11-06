@@ -18,7 +18,7 @@
 //
 // Vulkan Cookbook
 // ISBN: 9781786468154
-// © Packt Publishing Limited
+// ?Packt Publishing Limited
 //
 // Author:   Pawel Lapinski
 // LinkedIn: https://www.linkedin.com/in/pawel-lapinski-84522329
@@ -28,7 +28,8 @@
 
 #include "05 Descriptor Sets/10 Creating a descriptor set layout.h"
 #include "08 Graphics and Compute Pipelines/12 Creating a pipeline layout.h"
-#include "08 Graphics and Compute Pipelines/20 Creating a pipeline layout with a combined image sampler, a buffer and push constant ranges.h"
+#include "08 Graphics and Compute Pipelines/20.h"
+//20 Creating a pipeline layout with a combined image sampler, a buffer and push constant ranges.h"
 
 namespace VulkanCookbook {
 
